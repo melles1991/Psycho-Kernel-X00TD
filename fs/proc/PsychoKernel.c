@@ -7,7 +7,7 @@
 static int psycho_kernel_proc_show(struct seq_file *m, void *v)
 {
 	seq_printf(m, "{\"kernel-name\": \"Psycho-Kernel_X00TD\","
-			"\"version\": \"v1.0\","
+			"\"version\": \"1.0\","
 			"\"buildtime\": \"%s\"}\n", PSYCHO_KERNEL_TIMESTAMP);
 	return 0;
 }
